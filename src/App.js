@@ -13,7 +13,6 @@ function App() {
   // Comportement
   const deleteFruit = (id) => {
     const fruitsCopy = [...fruits];
-
     const fruitsCopyUpdated = fruitsCopy.filter((fruit) => fruit.id !== id);
     setFruits(fruitsCopyUpdated);
   };
